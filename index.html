@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+	<div class="weather-card">
+
+        <div class="weather-header">
+            <h1>Weather Forecast</h1>
+        </div>
+        <div class="weather-info">
+            <div class="location">
+                <h2>New York</h2>
+            </div>
+            <div class="temperature">
+                <h3>23°C</h3>
+            </div>
+			<img class="icon" src="https://openweathermap.org/img/wn/10d@2x.png" alt="icon">
+            <div class="condition">
+                <p>Raining</p>
+            </div>
+			<button class="btn-get-weather">
+				GET TORONTO WEATHER NOW!!!
+			</button>
+			<div class="spinner">
+				<div class="loading-spinner"></div>
+			</div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
